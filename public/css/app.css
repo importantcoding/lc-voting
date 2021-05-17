@@ -25299,6 +25299,31 @@ select {
   background-clip: content-box, border-box;
 }
 
+.open {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 229, 229, var(--tw-bg-opacity));
+}
+
+.considering {
+  --tw-bg-opacity: 1;
+  background-color: rgba(139, 96, 237, var(--tw-bg-opacity));
+}
+
+.in-progress {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 199, 60, var(--tw-bg-opacity));
+}
+
+.implemented {
+  --tw-bg-opacity: 1;
+  background-color: rgba(26, 171, 139, var(--tw-bg-opacity));
+}
+
+.closed {
+  --tw-bg-opacity: 1;
+  background-color: rgba(236, 69, 79, var(--tw-bg-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -147348,4 +147373,3 @@ select {
     -webkit-line-clamp: unset;
   }
 }
-
